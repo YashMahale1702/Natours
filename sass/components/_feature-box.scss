@@ -1,32 +1,28 @@
 .feature-box {
-  background-color: rgba($color: $color-white, $alpha: 0.8);
-  font-size: 1.5rem;
-  padding: 2.5rem;
-  text-align: center;
-  border-radius: 0.5rem;
-  box-shadow: 0 1.5rem 4rem rgba($color: $color-black, $alpha: 0.3);
-  transition: all 0.3s ease;
+	background-color: rgba($color: $color-white, $alpha: 0.8);
+	font-size: 1.5rem;
+	padding: 2.5rem;
+	text-align: center;
+	border-radius: 0.5rem;
+	box-shadow: 0 1.5rem 4rem rgba($color: $color-black, $alpha: 0.3);
+	transition: all 0.3s ease;
 
-  @include respond(tab-port) {
-    padding: 2rem 4rem;
-  }
+	@include respond(tab-port) {
+		padding: 2rem 4rem;
+	}
 
-  &_icon {
-    font-size: 6rem;
-    margin-bottom: 0.5rem;
-    display: inline-block;
-    background-image: linear-gradient(
-      to right,
-      rgba($color-primary-light, 1),
-      rgba($color-primary-dark, 1)
-    );
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
+	&_icon {
+		font-size: 6rem;
+		margin-bottom: 0.5rem;
+		display: inline-block;
+		background-image: linear-gradient(to right, rgba($color-primary-light, 1), rgba($color-primary-dark, 1));
+		-webkit-background-clip: text;
+		background-clip: text;
+		color: transparent;
+	}
 
-  &:hover {
-    transform: translateY(-2rem) scale(1.05);
-    box-shadow: 0 2rem 4rem rgba($color: $color-black, $alpha: 0.5);
-  }
+	&:hover {
+		transform: translateY(-2rem) scale(1.05);
+		box-shadow: 0 2rem 4rem rgba($color: $color-black, $alpha: 0.5);
+	}
 }

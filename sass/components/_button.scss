@@ -1,98 +1,98 @@
 .btn {
-  &--white {
-    color: $color-grey-dark;
-    background-color: $color-white;
+	&--white {
+		color: $color-grey-dark;
+		background-color: $color-white;
 
-    &::after {
-      background-color: $color-white;
-    }
-  }
-  &--green {
-    color: $color-white;
-    background-color: $color-primary;
+		&::after {
+			background-color: $color-white;
+		}
+	}
+	&--green {
+		color: $color-white;
+		background-color: $color-primary;
 
-    &::after {
-      background-color: $color-primary;
-    }
-  }
+		&::after {
+			background-color: $color-primary;
+		}
+	}
 
-  &,
-  &:link,
-  &:visited {
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 1.5rem 4rem;
-    border-radius: 10rem;
-    display: inline-block;
-    transition: all 0.2s ease;
-    backface-visibility: hidden;
-    position: relative;
-    font-size: $default-font-size;
+	&,
+	&:link,
+	&:visited {
+		text-decoration: none;
+		text-transform: uppercase;
+		padding: 1.5rem 4rem;
+		border-radius: 10rem;
+		display: inline-block;
+		transition: all 0.2s ease;
+		backface-visibility: hidden;
+		position: relative;
+		font-size: $default-font-size;
 
-    //* changes for the submit button
-    border: none;
-    outline: none;
-    cursor: pointer;
-  }
+		//* changes for the submit button
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
 
-  &:hover {
-    transform: translateY(-0.3rem);
-    box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+	&:hover {
+		transform: translateY(-0.3rem);
+		box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
 
-    &::after {
-      transform: scaleX(1.5) scaleY(1.7);
-      opacity: 0;
-    }
-  }
+		&::after {
+			transform: scaleX(1.5) scaleY(1.7);
+			opacity: 0;
+		}
+	}
 
-  &:active {
-    transform: translateY(-0.1rem);
-    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.4);
-  }
+	&:active {
+		transform: translateY(-0.1rem);
+		box-shadow: 0 0.5rem 1rem rgba($color-black, 0.4);
+	}
 
-  &::after {
-    content: '';
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 10rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all 0.4s ease;
-    backface-visibility: hidden;
-  }
+	&::after {
+		content: '';
+		display: inline-block;
+		height: 100%;
+		width: 100%;
+		border-radius: 10rem;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		transition: all 0.4s ease;
+		backface-visibility: hidden;
+	}
 
-  &--animated {
-    animation: moveInBottom 0.7s ease-out 0.75s;
-    animation-fill-mode: both;
-  }
+	&--animated {
+		animation: moveInBottom 0.7s ease-out 0.75s;
+		animation-fill-mode: both;
+	}
 }
 
 .btn-text {
-  &:link,
-  &:visited {
-    display: inline-block;
-    color: $color-primary;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-bottom: 0.2rem solid $color-primary;
-    padding: 0.5rem;
-    font-size: $default-font-size;
-    border-radius: 1rem;
-    transition: all 0.3s ease;
-  }
+	&:link,
+	&:visited {
+		display: inline-block;
+		color: $color-primary;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-bottom: 0.2rem solid $color-primary;
+		padding: 0.5rem;
+		font-size: $default-font-size;
+		border-radius: 1rem;
+		transition: all 0.3s ease;
+	}
 
-  &:hover {
-    background-color: $color-primary;
-    color: $color-white;
-    box-shadow: 0 1rem 1.5rem rgba($color: #000000, $alpha: 0.2);
-    transform: translateY(-0.3rem);
-  }
+	&:hover {
+		background-color: $color-primary;
+		color: $color-white;
+		box-shadow: 0 1rem 1.5rem rgba($color: #000000, $alpha: 0.2);
+		transform: translateY(-0.3rem);
+	}
 
-  &:active {
-    box-shadow: 0 1rem 1.5rem rgba($color: #000000, $alpha: 0.15);
-    transform: translateY(-0.1rem);
-  }
+	&:active {
+		box-shadow: 0 1rem 1.5rem rgba($color: #000000, $alpha: 0.15);
+		transform: translateY(-0.1rem);
+	}
 }

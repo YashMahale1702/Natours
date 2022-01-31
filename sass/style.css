@@ -865,7 +865,7 @@ body {
 }
 
 .book {
-  background-image: linear-gradient(100deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(126, 213, 111, 0) 50%), url("../images/nat-10.jpg");
+  background-image: linear-gradient(100deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(126, 213, 111, 0) 50%), url("../../images/nat-10.jpg");
   background-size: cover;
   border-radius: 5px;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.5);
@@ -876,15 +876,15 @@ body {
 
 @media only screen and (max-width: 75em) {
   .book {
-    background-image: linear-gradient(100deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 70%, rgba(126, 213, 111, 0) 70%), url("../images/nat-10.jpg");
+    background-image: linear-gradient(100deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 70%, rgba(126, 213, 111, 0) 70%), url("../../images/nat-10.jpg");
     background-size: cover;
   }
 }
 
 @media only screen and (max-width: 56.25em) {
   .book {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.8)), color-stop(90%, rgba(255, 255, 255, 0.8))), url("../images/nat-10.jpg");
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 90%), url("../images/nat-10.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.8)), color-stop(90%, rgba(255, 255, 255, 0.8))), url("../../images/nat-10.jpg");
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 90%), url("../../images/nat-10.jpg");
   }
 }
 
@@ -1405,7 +1405,7 @@ body {
 }
 
 .row .col-2-of-3 {
-  width: calc( 2 * ((100% - 2 * 6rem) / 3) + 6rem);
+  width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
 }
 
 .row .col-1-of-4 {
@@ -1500,8 +1500,8 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.85)), to(rgba(40, 180, 133, 0.85))), url("/images/nat-4.jpg");
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)), url("/images/nat-4.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.85)), to(rgba(40, 180, 133, 0.85))), url("../../images/nat-4.jpg");
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)), url("../../images/nat-4.jpg");
   -webkit-transform: skewY(-6deg);
           transform: skewY(-6deg);
   margin-top: -9rem;
