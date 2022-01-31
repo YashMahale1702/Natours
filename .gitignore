@@ -1,1 +1,7 @@
 node_modules
+sass/abstract/
+sass/base/
+sass/components/
+sass/layout/
+sass/pages/
+.vscode
