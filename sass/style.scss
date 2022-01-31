@@ -1,0 +1,58 @@
+@import 'abstract/functions';
+@import 'abstract/mixins';
+@import 'abstract/variables';
+
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+
+@import 'components/button';
+@import 'components/composition';
+@import 'components/feature-box';
+@import 'components/card';
+@import 'components/story';
+@import 'components/bg-video';
+@import 'components/book';
+@import 'components/navigation';
+@import 'components/popup';
+
+@import 'layout/header';
+@import 'layout/grid';
+@import 'layout/footer';
+
+@import 'pages/home';
+
+/*
+   * Important Notes: *
+   * clip path : Specifies a clipping path where everything inside the path is visible and everything outside is clipped out.
+   * Animations : opacity and transform is most suited and efficient
+   * Position : parent-relative(reference) child-absolute, top,left
+   * pseudo selectors : link and visited ,hover ,active(clicked)
+   * ::after : applies after the actual content content shold be spcified = ''
+   *  backface-visilbilty : hidden - when there is some kind of stutter after animation /transform /transition /hover
+   * rem's are added to the "ROOT"(HTML{ 10px : 62.5% for better responsive design}) and the rest of the elements are in "rem'S"
+   * SCSS mixins,functions,import,extends(when something,something is required) , variables
+   * animation-fill-mode : both
+   * object-fit same as background size
+   * Transform : translate ,  skew  , rotate  , scale .
+   * Background-clip for gradient text
+   * video position absolute , all the controls
+   * background-blend-mode same as gradient image with background image
+   * box-decoration and text-decoration   : box-decoration-break: clone;
+   * CSS perspective 150rem
+   * CSS filter : used to add filters to images directly
+   * Shape outside an image : shape-outside
+   * many properties can be added to transform same as back-img using " , "
+   * Animations and trnsitions are important
+   * BEM notation for HTML classes for all the tag and the tag should be schemantic
+          * Block -> Element -> Modifier
+   * Always use sass instead of css for nesting feature using "  &  "
+   * 5 - different folders of sass
+          * abstract   base   componenets   layout   pages
+   * css -> currentcolor feature-> parent's color
+   * ::before and ::after for creating additional by not making use of HTML
+   * flexbox -> great tool to design modern websites
+          * flex:   flex-direction:  justify-content: ( main-axis)    align-items:  ( cross-axis )   align-self:
+          *if the container should wrap into next row ->   align-content:   with    flex-wrap:
+ */

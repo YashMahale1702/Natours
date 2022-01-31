@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  //this defines what is 1rem : 10px : 62.5%
+  font-size: 62.5%; // 1 rem : 10 px //* usual font-size
+  scroll-behavior: smooth;
+
+  @include respond(tab-land) {
+    // *1 rem : 9px  1200px
+    font-size: 56.25%;
+  }
+
+  @include respond(tab-port) {
+    // *1 rem : 8px  900px
+    font-size: 50%;
+  }
+
+  @include respond(phone) {
+    // *1 rem : 6px 600px
+    font-size: 37.5%;
+  }
+
+  @include respond(big-desktop) {
+    // *1 rem : 12px  beyond 1200
+    font-size: 75%;
+  }
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
