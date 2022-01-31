@@ -461,7 +461,7 @@ body {
     top: -0.5rem;
     -webkit-transform: scale(1.4);
             transform: scale(1.4);
-    z-index: 11;
+    z-index: 3;
   }
 }
 
@@ -485,8 +485,8 @@ body {
   -webkit-box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.4);
           box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.4);
   z-index: 2;
-  outline: 1rem solid #55c57a;
-  outline-offset: 2rem;
+  outline: 0.5rem solid #55c57a;
+  outline-offset: 0rem;
 }
 
 .composition:hover .composition_photo:not(:hover) {
@@ -1323,8 +1323,8 @@ body {
 
 @media only screen and (max-width: 37.5em) {
   .header {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
   }
 }
 
@@ -1494,7 +1494,7 @@ body {
 
 @media only screen and (max-width: 37.5em) {
   .section-about {
-    margin-top: -15vh;
+    margin-top: -10vh;
   }
 }
 

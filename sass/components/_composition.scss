@@ -34,7 +34,7 @@
 			@include respond(tab-port) {
 				top: -0.5rem;
 				transform: scale(1.4);
-				z-index: 11;
+				z-index: 3;
 			}
 		}
 		&--p3 {
@@ -53,8 +53,8 @@
 			transform: scale(1.05) translateY(-0.5rem);
 			box-shadow: 0 3rem 4rem rgba($color-black, 0.4);
 			z-index: 2;
-			outline: 1rem solid $color-primary;
-			outline-offset: 2rem;
+			outline: 0.5rem solid $color-primary;
+			outline-offset: 0rem;
 		}
 	}
 
