@@ -598,18 +598,18 @@ body {
 }
 
 .card_picture--1 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)), url("../../images/nat-5.jpg");
-  background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url("../../images/nat-5.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)), url("../images/nat-5.jpg");
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url("../images/nat-5.jpg");
 }
 
 .card_picture--2 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485)), url("../../images/nat-6.jpg");
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url("../../images/nat-6.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485)), url("../images/nat-6.jpg");
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url("../images/nat-6.jpg");
 }
 
 .card_picture--3 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#2998ff), to(#5643fa)), url("../../images/nat-7.jpg");
-  background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url("../../images/nat-7.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#2998ff), to(#5643fa)), url("../images/nat-7.jpg");
+  background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url("../images/nat-7.jpg");
 }
 
 .card_heading {
@@ -865,7 +865,7 @@ body {
 }
 
 .book {
-  background-image: linear-gradient(100deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(126, 213, 111, 0) 50%), url("../../images/nat-10.jpg");
+  background-image: linear-gradient(100deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(126, 213, 111, 0) 50%), url("../images/nat-10.jpg");
   background-size: cover;
   border-radius: 5px;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.5);
@@ -876,15 +876,15 @@ body {
 
 @media only screen and (max-width: 75em) {
   .book {
-    background-image: linear-gradient(100deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 70%, rgba(126, 213, 111, 0) 70%), url("../../images/nat-10.jpg");
+    background-image: linear-gradient(100deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 70%, rgba(126, 213, 111, 0) 70%), url("../images/nat-10.jpg");
     background-size: cover;
   }
 }
 
 @media only screen and (max-width: 56.25em) {
   .book {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.8)), color-stop(90%, rgba(255, 255, 255, 0.8))), url("../../images/nat-10.jpg");
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 90%), url("../../images/nat-10.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.8)), color-stop(90%, rgba(255, 255, 255, 0.8))), url("../images/nat-10.jpg");
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 90%), url("../images/nat-10.jpg");
   }
 }
 
@@ -1313,8 +1313,8 @@ body {
 
 .header {
   height: 95vh;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.85)), to(rgba(40, 180, 133, 0.85))), url("../../images/hero.jpg");
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)), url("../../images/hero.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.85)), to(rgba(40, 180, 133, 0.85))), url("../images/hero.jpg");
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)), url("../images/hero.jpg");
   background-size: cover;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -1500,8 +1500,8 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.85)), to(rgba(40, 180, 133, 0.85))), url("../../images/nat-4.jpg");
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)), url("../../images/nat-4.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.85)), to(rgba(40, 180, 133, 0.85))), url("../images/nat-4.jpg");
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)), url("../images/nat-4.jpg");
   -webkit-transform: skewY(-6deg);
           transform: skewY(-6deg);
   margin-top: -9rem;
